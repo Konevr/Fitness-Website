@@ -29,6 +29,35 @@ body {
   /* applies to screens wider than 999px */
 
   body {
-    background: #ccf;
+    background: #ffffff;
   } 
+
+header h1 {
+  margin: 0;
+}
+
+header {
+
+  padding: 0.25em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+
+}
+nav a {
+  padding: 1.25em 1.5em;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0s;
+}
+nav a:hover {
+  color: #ffcc66;
+}
+
+main {
+  padding: 0 10px;
+} 
 }
