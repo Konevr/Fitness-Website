@@ -17,44 +17,123 @@ body {
   
 }
 
-nav {
-  display: none;
-  clear: both;
-  justify-content: center;
-  flex-direction: column;
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
-nav a {
-  padding: 0em 1.5em;
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  transition: all 0.5s;
+  font-size: 25px;
+  color: #111;
+  display: block;
+  transition: 0.3s;
 }
 
-nav a:hover {
-  color: orange
+.sidenav a:hover {
+  color: #ffcc66;
 }
 
-.menu {
-  text-align: center;
-  color: black;
-  line-height: 2em;
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-.menu-toggle {
-  display: flex;
-}
-
 main {
-  width: 600px;
-  height: 135px;
-  padding: 20px;
-  margin: 100px auto;
-  box-shadow: 0px 0px 10px 2px grey;
+  width: 99%;
+  height: auto;
+  padding: 0px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px 2px #ffcc66;
   color: black;
   background-color: white;
-  opacity: .8;
+  opacity: .9;
 }
 
+.slider{
+  margin-top: 1em;
+  width: 99%;
+  height: 250px;
+  background: url(1.jpg);
+  background-size: 100% 100%;
+  animation: slide 40s infinite;
+  box-shadow: 0px 0px 10px 2px #ffcc66;
+}
 
+@keyframes slide{
+  25%{
+    background: url(2.jpg);
+    background-size: 100% 100%;
+  }
+  50%{
+    background: url(3.jpg);
+    background-size: 100% 100%;
+  }
+  75%{
+    background: url(4.jpg);
+    background-size: 100% 100%;
+  }
+  100%{
+    background: url(1.jpg);
+    background-size: 100% 100%;
+  }
+}
 
+* {margin: 0; padding: 0;}
+ 
+.categories {
+  width: 99%;
+  height: auto;
+  padding: 0px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px 2px #ffcc66;
+  color: black;
+  background-color: white;
+  opacity: .9;
+}
+ 
+ul {
+  list-style-type: none;
+  width: auto;
+}
+ 
+h3 {
+  font: bold 20px/1.5 Helvetica, sans-serif;
+}
+ 
+li img {
+  height: 100px;
+  width: 100px;
+  float: center;
+  margin: 0 15px 0 0;
+  padding: 5 0em;
+}
+ 
+li p {
+  text-align: justify;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  color: #ffcc66;
+  cursor: pointer;
+}
 
 /* TABLET STYLES */
 
@@ -82,33 +161,6 @@ main {
 @media screen and (min-width: 1000px) {
 
   /* applies to screens wider than 999px */
-  .slider{
-    margin-top: 2em;
-    width: 60%;
-    height: 600px;
-    background: url(1.jpg);
-    background-size: 100% 100%;
-    animation: slide 60s infinite;
-    box-shadow: 0px 0px 10px 2px grey;
-  }
-  
-  @keyframes slide{
-    25%{
-      background: url(2.jpg);
-      background-size: 100% 100%;
-    }
-    50%{
-      background: url(3.jpg);
-      background-size: 100% 100%;
-    }
-    75%{
-      background: url(4.jpg);
-      background-size: 100% 100%;
-    }
-    100%{
-      background: url(1.jpg);
-      background-size: 100% 100%;
-    }
-  }
+
 
 }

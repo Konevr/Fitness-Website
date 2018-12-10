@@ -1,10 +1,8 @@
 console.log("hello");
-const menuToggle = document.getElementById("menu-toggle");
-const menuNav = document.getElementById("menu-nav");
-
-const toggleMenu = () => {
-  console.log("called toggleMenu")
-  menuNav.classList.toggle("menu-toggle");
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
 }
 
-menuToggle.addEventListener("click", toggleMenu);
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
