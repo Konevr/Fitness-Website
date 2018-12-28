@@ -23,7 +23,35 @@ body {
   
 }
 
+nav {
+  display: none;
+  clear: both;
+  justify-content: center;
+  background: #333;
+  flex-direction: column;
+}
+nav a {
+  padding: 1.25em 1.5em;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.5s;
+}
 
+.menu {
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  line-height: 2em;
+}
+.menu-toggle {
+  display: flex;
+}
+nav a:hover {
+  color: #ffcc66;
+}
+/*
 .sidenav {
   height: 100%;
   width: 0;
@@ -57,6 +85,8 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
+*/
+
 main {
   text-align: justify;
   width: 99%;
@@ -144,7 +174,37 @@ li:hover {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+  body {
+    background: #cfc;
+  }
+  .menu {
+    display: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    font-weight: bold;
+  }
+  /* just change the menu colours on hover above mobile widths */
+  nav a:hover {
+    color: #ffcc66;
+  }
+
+  .slider{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  li img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 5 0em;
+  }
 
 
 
@@ -157,6 +217,12 @@ li:hover {
 @media screen and (min-width: 1000px) {
 
   /* applies to screens wider than 999px */
+  
+  body {
+    background: #ccf;
+  } 
+
+  
 
 
 }
