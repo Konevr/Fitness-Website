@@ -132,6 +132,61 @@ li:hover {
   
 }
 
+/*----------------------------------------------------Diet Page----------------------------------------------------*/
+.bmi {
+  color: black;
+  display:block;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+form {
+  background-color: grey;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 20px 5px black;
+  margin: 0;
+  padding: 10px;
+  width:100%;
+  max-width: 400px;
+}
+input {
+  box-shadow: 1px 1px 3px 1px black;
+  width: 100%;
+  text-align: center;
+}
+
+.submit {
+  display:inline-block;
+  color: white;
+  background-color: blue;
+  margin:0;
+  padding: 5px;
+  border: 0;
+  font-weight: bold;
+  width:100%;
+}
+.submit:hover {
+  color: blue;
+  background-color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+#result {
+  border: 1px solid black;
+  padding: 2px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+h4 {
+  color: black;
+  text-shadow: -2px -2px 5px white;
+  
+}
+/*----------------------------------------------------Diet Page----------------------------------------------------*/
 
 /* TABLET STYLES */
 
@@ -166,10 +221,9 @@ li:hover {
     width: 150px;
     height: 150px;
     float: left;
-    margin: 0 0 0 0;
+    margin: 0 1em 0 0;
     padding: 5 0em;
   }
-
 
 
 }
@@ -211,7 +265,7 @@ li:hover {
     width: 25%;
     height: 25%;
     float: center;
-    margin: 0 0 0 0;
+    margin: 0 1em 0 0;
     padding: 5 0em;
   }
    

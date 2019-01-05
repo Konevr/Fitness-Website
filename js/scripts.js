@@ -9,3 +9,10 @@ const toggleMenu = () => {
 }
 
 menuToggle.addEventListener("click", toggleMenu);
+
+function bmi () {
+  let height = Number(document.getElementById("height").value);
+  let weight = Number(document.getElementById("weight").value);
+  let result = weight / (height * height);
+  document.getElementById("result").innerHTML = "Your bmi score is : " + result;
+  }
