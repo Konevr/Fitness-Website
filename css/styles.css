@@ -10,9 +10,11 @@ body {
   text-align: center;
 }
 
+
 h1 {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -134,12 +136,14 @@ li {
   padding: 10px;
   overflow: hidden;
 }
- 
-li:hover {
-  
-}
+
 
 /*----------------------------------------------------Diet Page Start----------------------------------------------------*/
+
+.dbody {
+  background-color: rgb(196, 255, 225);
+}
+
 .bmi {
   color: black;
   display:block;
@@ -195,9 +199,8 @@ h4 {
 }
 
 
-
-
 /*----------------------------------------------------Diet Page End----------------------------------------------------*/
+
 
 /* TABLET STYLES */
 
@@ -289,7 +292,4 @@ h4 {
     overflow: hidden;
   }
    
-  li:hover {
-    
-  }
 }
