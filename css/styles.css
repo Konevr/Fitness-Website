@@ -119,14 +119,6 @@ li img {
   margin: 0 0 0 0;
   padding: 5 0em;
 }
-
-.bmitest {
-  width: 99%;
-  height: 300px;
-  float: center;
-  margin: 0 0 0 0;
-  padding: 5 0em;
-}
  
 li p {
   text-align: justify;
@@ -142,6 +134,14 @@ li {
 
 .dbody {
   background-color: rgb(196, 255, 225);
+}
+
+.bmitest {
+  width: 99%;
+  height: 300px;
+  float: center;
+  margin: 0 0 0 0;
+  padding: 5 0em;
 }
 
 .bmi {
@@ -200,6 +200,73 @@ h4 {
 
 
 /*----------------------------------------------------Diet Page End----------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------Weightlifting Page Start----------------------------------------------------*/
+
+.wbody {
+  background-color: #888;
+}
+
+.weights {
+  width: 99%;
+  height: 300px;
+  float: center;
+  margin: 0 0 0 0;
+  padding: 5 0em;
+}
+
+/* button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  opacity: 0.3;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Collapsable */
+.collapsible {
+  background-color: #888;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+/*----------------------------------------------------Weightlifting Page End----------------------------------------------------*/
+
+
 
 
 /* TABLET STYLES */
