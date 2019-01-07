@@ -52,3 +52,12 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+//Contact form
+function display()
+{
+var x=document.details.fname.value;
+var y=document.details.lname.value;
+var z=document.details.msg.value;
+alert(" Name: "+x+" "+y+" "+"\n Message: "+z+" has been submitted");
+}

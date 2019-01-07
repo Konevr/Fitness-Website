@@ -58,12 +58,12 @@ main {
   height: auto;
   padding: 0px;
   margin: 30px auto;
-  box-shadow: 0px 0px 10px 2px #ffcc66;
   color: black;
   background-color: white;
   opacity: .9;
 }
 
+/*----------------------------------------------------Index Page Start----------------------------------------------------*/
 .slider{
   margin-top: 1em;
   width: 99%;
@@ -95,7 +95,7 @@ main {
 
 * {margin: 0; padding: 0;}
  
-.categories {
+.icategories {
   width: 99%;
   height: auto;
   padding: 0px;
@@ -129,11 +129,26 @@ li {
   overflow: hidden;
 }
 
+/*----------------------------------------------------Index Page End----------------------------------------------------*/
+
+
+
 
 /*----------------------------------------------------Diet Page Start----------------------------------------------------*/
 
 .dbody {
   background-color: rgb(196, 255, 225);
+}
+
+.dcategories {
+  width: 99%;
+  height: auto;
+  padding: 0px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px 2px rgb(120, 255, 185);
+  color: black;
+  background-color: white;
+  opacity: .9;
 }
 
 .bmitest {
@@ -151,18 +166,18 @@ li {
   margin:0;
   padding:0;
 }
-form {
+.bmiclass {
   background-color: white;
   display: inline-block;
   box-sizing: border-box;
-  box-shadow: 2px 2px 20px 5px black;
+  box-shadow: 2px 2px 20px 5px rgb(155, 155, 155);
   margin: 0;
   padding: 10px;
   width:100%;
   max-width: 400px;
 }
 input {
-  box-shadow: 1px 1px 3px 1px black;
+  box-shadow: 1px 1px 3px 1px rgb(155, 155, 155);
   width: 100%;
   text-align: center;
 }
@@ -170,8 +185,9 @@ input {
 .submit {
   display:inline-block;
   color: white;
-  background-color: grey;
+  background-color: rgb(44, 255, 146);
   margin:0;
+  margin-bottom: 1em;
   padding: 5px;
   border: 0;
   font-weight: bold;
@@ -211,6 +227,16 @@ h4 {
   background-color: #888;
 }
 
+.wcategories {
+  width: 99%;
+  height: auto;
+  padding: 0px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px 2px rgb(82, 82, 82);
+  color: black;
+  background-color: white;
+  opacity: .9;
+}
 .weights {
   width: 99%;
   height: 300px;
@@ -283,6 +309,40 @@ tr:nth-child(even) {
 
 
 /*----------------------------------------------------Weightlifting Page End----------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------Contact Us Page Start----------------------------------------------------*/
+
+.cbody {
+  background-color: rgb(228, 228, 228);
+}
+
+.ccategories {
+  width: 99%;
+  height: auto;
+  padding: 0px;
+  margin: 30px auto;
+  box-shadow: 0px 0px 10px 2px rgb(202, 202, 202);
+  color: black;
+  background-color: white;
+  opacity: .9;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+/*----------------------------------------------------Contact Us Page End----------------------------------------------------*/
 
 
 
