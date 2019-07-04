@@ -1,5 +1,4 @@
-# CTEC3905 Assignment 
-Student: Konstantinos Evripidou P16169572
+Developer: Konstantinos Evripidou
 
 Index References:
 https://medlineplus.gov/benefitsofexercise.html
