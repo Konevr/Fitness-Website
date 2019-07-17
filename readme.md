@@ -1,4 +1,6 @@
-Developer: Konstantinos Evripidou
+**Developer: Konstantinos Evripidou**
+
+Health & Fitness Introduction website. Includes breakpoints for Desktop, Tablet and Mobile size screens.
 
 Index References:
 https://medlineplus.gov/benefitsofexercise.html
