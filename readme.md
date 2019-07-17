@@ -1,6 +1,6 @@
-**Developer: Konstantinos Evripidou**
+# Health & Fitness 
 
-Health & Fitness Introduction website. Includes breakpoints for Desktop, Tablet and Mobile size screens.
+**Introduction website. Includes breakpoints for Desktop, Tablet and Mobile size screens.**
 
 Index References:
 
